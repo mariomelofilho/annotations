@@ -6,9 +6,16 @@ Annotaions: some commands to remember since i'm getting old!
 
 ### Create branch local and remote
 ```
-git checkout -b feature/mongodb-hostvars
-git push origin feature/mongodb-hostvars
-git push --set-upstream origin feature/mongodb-hostvars
+git checkout -b feature/newfeature
+git pull origin feature/newfeature
+git push --set-upstream origin feature/newfeature
+```
+
+### Remove branch local and remote
+```
+git branch -d [name_of_your_new_branch] OR
+git branch -D [name_of_your_new_branch] AND
+git push origin :[name_of_your_new_branch]
 ```
 
 ## Ansible
