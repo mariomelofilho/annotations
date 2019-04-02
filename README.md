@@ -6,8 +6,8 @@ Annotaions: some commands to remember since i'm getting old!
 
 ### Create branch local and remote
 ```
+git pull
 git checkout -b feature/newfeature
-git pull origin feature/newfeature
 git push --set-upstream origin feature/newfeature
 ```
 
