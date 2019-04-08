@@ -11,11 +11,12 @@ git checkout -b feature/newfeature
 git push --set-upstream origin feature/newfeature
 ```
 
-### Remove branch local and remote
+### Remove branch local, origin and remote
 ```
-git branch -d [name_of_your_new_branch] OR
-git branch -D [name_of_your_new_branch] AND
-git push origin :[name_of_your_new_branch]
+git branch -d [name_of_your_new_branch] # removes local copy of branch OR
+git branch -D [name_of_your_new_branch] # removes local copy of branch
+branch -rd origin/[name_of_your_new_branch] # removes local copy of origin branch
+git push origin :[name_of_your_new_branch]  # removes remote branch
 ```
 
 ## Ansible
