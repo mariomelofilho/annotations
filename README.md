@@ -15,7 +15,7 @@ git push --set-upstream origin feature/newfeature
 ```
 git branch -d [name_of_your_new_branch] # removes local copy of branch OR
 git branch -D [name_of_your_new_branch] # removes local copy of branch
-branch -rd origin/[name_of_your_new_branch] # removes local copy of origin branch
+git branch -rd origin/[name_of_your_new_branch] # removes local copy of origin branch
 git push origin :[name_of_your_new_branch]  # removes remote branch
 ```
 
