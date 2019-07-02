@@ -32,7 +32,8 @@ service_password: cleartextpassword
   3. to encrypt  the content of service_password variable insice segredo.yml, using a vault-id called my_vault_id wit a key supersecretkey located inside key_file file, run the command:
 
 ```bash
-ansible-vault encrypt_string --encrypt-vault-id 'my_vault_id' --vault-id my_vault_id@key_file  --name 'service_password' 'cleartextpassword'
+cat key_file|ansible-vault encrypt_string --encrypt-vault-id 'idrac_root_old_pass' --vault-id idrac_root_old_pass@key_file --stdin-name=idrac_root_old_password
+
 ```
   4. output of above command:
 
