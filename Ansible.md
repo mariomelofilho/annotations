@@ -63,7 +63,7 @@ Encryption successful
   6. Now verify if you can decrypt service_password with key from key_file
 
   ```bash
-yq r segredo_encrypted.yml service_password|ansible-vault --vault-password-file=key_file decrypt
+yq -r .service_password segredo_encrypted.yml|ansible-vault --vault-password-file=key_file decrypt
   ```
   Output of above command:
 
