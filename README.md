@@ -1,12 +1,12 @@
 # Annotations
-Annotaions: some commands to remember since i'm getting old!
+Annotations: Some commands to remember since I'm getting old, as well as my friends who can relly on this!
 
 
 ## git
 
 ### Create branch local and remote
 ```
-git pull
+git pull -v
 git checkout -b feature/newfeature
 git push --set-upstream origin feature/newfeature
 ```
